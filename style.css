@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inspiration&family=Poppins:wght@200&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+    background-image: url("/images/backgrounds.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* backdrop-filter: opacity (0); */
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        background-size: contain;
+
+    }
+    /* div>p{
+        width: auto;
+        height: auto;    
+    } */
+    div.elements>div>img{
+        width: 60%;
+        height: 60%;
+    }
+
+  }
+h1{
+text-align: center;
+color: white;
+font-size: 40px;
+}
+
+
+div.main{
+    display: flex;
+    justify-content: center;   
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background-size: contain;
+    align-items:center ;
+    
+    background-repeat: no-repeat;
+  
+}
+div.main>p{
+    background-color: aliceblue;
+}
+#main_p{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    border-radius: 10%;    
+    color: antiquewhite;
+}
+
+#p1{
+   /* background-image: url(/images/vs.png); */
+   color: rgb(2, 0, 0);
+   background-size: cover;
+   font-size: 30px;
+    margin-top: 10px;
+   background-color: #0093E9;
+   background-image: linear-gradient(125deg, #0093E9 0%, #80D0C7 50%, #56afd9 100%);   
+    background-repeat: no-repeat;
+   overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    width: 700px;
+}
+#p1 #ys {
+font-size: 30px;
+color: aqua;
+border: none;
+}
+#p1 #cc {
+    font-size: 30px;
+    color: aqua;
+    border: none;
+    }
+#p1 .image {
+       /* border: 2px solid red; */
+       width: 15%;
+       height: 90px;
+}
+#p1 .image img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
+
+#p2{
+    background-color: rgba(0, 255, 255, 0.526);
+    text-align: center;
+    font-size: 24px;
+}
+div.elements{
+    /* padding: 30px;
+    margin: 25% 10%; */
+    padding: 30px;
+    margin: 5% 10%;
+
+    background-color: rgba(240, 248, 255, 0.607);
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div.elements>div>img{
+border:4px solid green;
+border-radius: 50%;
+
+}
+div.elements>div>img:hover{
+background-color: white;
+}
+.main>p{
+    font-size: 32px;
+    color: rgb(244, 12, 12);
+    text-align: center;
+    /* border: 2px dashed yellowgreen;
+    background-color: rgba(255, 255, 255, 0); */
+    padding: 20px;
+}
