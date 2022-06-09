@@ -6,7 +6,7 @@ margin: 0;
 box-sizing: border-box;
 }
 body{
-    background-image: url("Rock-Paper-Scissors/images/backgrounds.jpg");
+    background-image: url("./images/backgrounds.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     /* backdrop-filter: opacity (0); */
